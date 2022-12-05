@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="partner-ui" />
+        <module name="spring-boot-security-jwt" />
+        <module name="x-center" />
+        <module name="partner-login" />
+        <module name="partner-webservice" />
+        <module name="domain-common" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="domain-common" options="-parameters" />
+      <module name="partner-login" options="-parameters" />
+      <module name="partner-ui" options="-parameters" />
+      <module name="partner-webservice" options="-parameters" />
+      <module name="spring-boot-security-jwt" options="-parameters" />
+      <module name="x-center" options="-parameters" />
+      <module name="xcenter-jwt" options="" />
+    </option>
+  </component>
+</project>
