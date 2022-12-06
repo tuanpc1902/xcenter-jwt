@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aba452b8-630f-4a78-be87-91a4f38e5adc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/domain-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain-common/src/main/java/com/xcenter/commons/StoreProcedureCommons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partner-login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/PartnerLoginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partner-ui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partner-webservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partner-webservice/src/main/java/com/xcenter/PartnerWebServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partner-webservice/src/main/java/com/xcenter/webservice/commons/CommonWebService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partner-webservice/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xcenter/config/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/SpringBootSecurityJwtApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xcenter/SpringBootSecurityJwtApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/models/ELevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-common/src/main/java/com/xcenter/enums/ELevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/models/EStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-common/src/main/java/com/xcenter/enums/EStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/models/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-common/src/main/java/com/xcenter/models/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/repository/UserInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/repository/UserInfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/security/jwt/AuthEntryPointJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/security/jwt/AuthEntryPointJwt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/security/jwt/AuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/security/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/security/jwt/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/security/jwt/payload/request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/security/jwt/payload/request/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/security/jwt/payload/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/security/jwt/payload/request/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/security/jwt/payload/response/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/security/jwt/payload/response/JwtResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/security/jwt/payload/response/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/security/jwt/payload/response/MessageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/security/services/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/security/services/UserDetailsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/security/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/security/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/services/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/services/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xcenter/services/impl/UserInfoImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/java/com/xcenter/services/impl/UserInfoImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/partner-login/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/SpringBootSecurityJwtApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/controllers/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/controllers/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/models/ELevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/models/EStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/models/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/repository/UserInfoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/security/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/security/jwt/AuthEntryPointJwt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/security/jwt/AuthTokenFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/security/jwt/JwtUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/security/jwt/payload/request/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/security/jwt/payload/request/SignupRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/security/jwt/payload/response/JwtResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/security/jwt/payload/response/MessageResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/security/services/UserDetailsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/security/services/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/services/UserInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xcenter/services/impl/UserInfoImplement.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IVRKkDujAgKHgETDK5Km300vkc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/tuanp/Desktop/xcenter-jwt/partner-webservice/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "aws",
+    "spring.configuration.checksum": "d20a4df2f5f78b8e80b94995f00bbab3"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tuanp\Desktop\xcenter-jwt\partner-webservice\src\main\resources" />
+      <recent name="C:\Users\tuanp\Desktop\xcenter-jwt\partner-login\src\main\resources" />
+      <recent name="C:\Users\tuanp\Desktop\xcenter-jwt\src\main\resources" />
+      <recent name="C:\Users\tuanp\Desktop\xcenter-jwt\partner-login\src\main\java\com\xcenter" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xcenter" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.XCenterApplication">
+    <configuration name="PartnerLoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="partner-login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcenter.PartnerLoginApplication" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartnerWebService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="partner-webservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcenter.PartnerWebServiceApplication" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="xcenter-jwt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcenter.SpringBootSecurityJwtApplication" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.PartnerLoginApplication" />
+      <item itemvalue="Spring Boot.PartnerWebService" />
+      <item itemvalue="Spring Boot.XCenterApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aba452b8-630f-4a78-be87-91a4f38e5adc" name="Changes" comment="" />
+      <created>1670264702241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670264702241</updated>
+      <workItem from="1670264703723" duration="3062000" />
+      <workItem from="1670352911032" duration="5508000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
